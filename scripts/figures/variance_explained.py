@@ -28,7 +28,7 @@ plt.rcParams['ytick.labelsize'] = 20
 data.plot(kind="bar", stacked=True, figsize=(5, 8), linewidth=0)
 plt.xlabel('')
 plt.ylabel('Proportion of Variance Explained', fontsize=20)
-plt.xticks(ticks=[0,1], labels=["Composition", "Structure"], rotation='horizontal')
+plt.xticks(ticks=[0,1], labels=["Presence/\nAbsence", "Relative\nAbundance"], rotation='horizontal')
 plt.legend(fontsize = 15, loc="upper left")
 plt.ylim(0, 1)
 
